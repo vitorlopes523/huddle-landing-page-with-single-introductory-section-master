@@ -27,21 +27,21 @@ body {
   max-width: 709px;
 }
 
-.main .container-principal .container-text {
+.main .container-principal .container-content {
   margin: 43px 50px 0 0;
 }
 
-.main .container-principal .container-text h1 {
+.main .container-principal .container-content h1 {
   font-family: var(--font-title);
   font-size: 40px;
   margin-bottom: 22px;
 }
 
-.main .container-principal .container-text p {
+.main .container-principal .container-content p {
   line-height: 26px;
   margin-bottom: 26px;
 }
-.main .container-principal .container-text .btn {
+.main .container-principal .container-content .btn {
   font-size: 18px;
   padding: 16px 60px;
   border-radius: 50px;
@@ -49,7 +49,7 @@ body {
   transition: 0.4s;
 }
 
-.main .container-principal .container-text .btn:hover {
+.main .container-principal .container-content .btn:hover {
   background-color: var(--primary-color-soft);
   color: #fff;
 }
@@ -82,6 +82,10 @@ body {
   padding: 10px 13px;
 }
 
+.main .social ul li a .fa-instagram {
+  padding: 10px 11px;
+}
+
 footer .attribution { 
   font-size: 11px; 
   text-align: center; 
@@ -96,14 +100,14 @@ footer .attribution {
 
 @media (max-width:1242px) {
   .main {
-    background: url('../images/bg-mobile.svg') center center no-repeat;
+    background: url('../images/bg-mobile.svg') top left no-repeat;
     background-size: contain;
     display: flex;
     flex-direction: column;
   }
 
   .main .logo img {
-    margin: 30px 0px 90px 20px;
+    margin: 30px 0px 90px 30px;
     max-width: 200px;
   }
 
@@ -111,7 +115,7 @@ footer .attribution {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 0 20px;
+    margin: 0 30px;
   }
 
   .main .container-principal img {
@@ -120,10 +124,19 @@ footer .attribution {
     margin: 0 auto;
   }
 
-  .main .container-principal .container-text {
+  .main .container-principal .container-content {
     width: 100%;
+    max-width: 604px;
     text-align: center;
     margin: 0 auto;
+  }
+
+  .main .container-principal .container-content p {
+    font-size: 17px;
+  }
+
+  .main .container-principal .container-content .btn {
+    width: 250px;
   }
 
   .main .social ul {
