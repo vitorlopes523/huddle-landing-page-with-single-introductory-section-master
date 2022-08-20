@@ -7,7 +7,7 @@ body {
 }
 
 .main {
-  background: url('../images/bg-desktop.svg') center center no-repeat;
+  background: url('../images/bg-desktop.svg') left top no-repeat;
   background-size: contain;
 }
 
@@ -97,53 +97,4 @@ footer .attribution {
   text-decoration: underline;
 }
 
-
-@media (max-width:1242px) {
-  .main {
-    background: url('../images/bg-mobile.svg') top left no-repeat;
-    background-size: contain;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .main .logo img {
-    margin: 30px 0px 90px 30px;
-    max-width: 200px;
-  }
-
-  .main .container-principal {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 0 30px;
-  }
-
-  .main .container-principal img {
-    width: 100%;
-    max-width: 604px;
-    margin: 0 auto;
-  }
-
-  .main .container-principal .container-content {
-    width: 100%;
-    max-width: 604px;
-    text-align: center;
-    margin: 0 auto;
-  }
-
-  .main .container-principal .container-content p {
-    font-size: 17px;
-  }
-
-  .main .container-principal .container-content .btn {
-    width: 250px;
-  }
-
-  .main .social ul {
-    display: flex;
-    justify-content: center;
-    margin: 70px 0 20px 0;
-    
-  }
-}
 
