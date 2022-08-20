@@ -1,0 +1,144 @@
+html {
+  font-family: var(--font-body);
+}
+
+body {
+  background-color: var(--primary-color-main);
+}
+
+.main {
+  background: url('../images/bg-desktop.svg') center center no-repeat;
+  background-size: contain;
+}
+
+.main .logo img {
+  margin: 30px 0px 90px 73px;
+  max-width: 200px;
+}
+
+.main .container-principal {
+  display: flex;
+  margin-left: 73px;
+  gap: 60px;
+  color: #fff;
+}
+
+.main .container-principal img {
+  max-width: 709px;
+}
+
+.main .container-principal .container-text {
+  margin: 43px 50px 0 0;
+}
+
+.main .container-principal .container-text h1 {
+  font-family: var(--font-title);
+  font-size: 40px;
+  margin-bottom: 22px;
+}
+
+.main .container-principal .container-text p {
+  line-height: 26px;
+  margin-bottom: 26px;
+}
+.main .container-principal .container-text .btn {
+  font-size: 18px;
+  padding: 16px 60px;
+  border-radius: 50px;
+  color: var(--primary-color-main);
+  transition: 0.4s;
+}
+
+.main .container-principal .container-text .btn:hover {
+  background-color: var(--primary-color-soft);
+  color: #fff;
+}
+
+.main .social ul {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 70px;
+}
+
+.main .social ul li{
+  margin: 7px;
+}
+
+.main .social ul li a i {
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  padding: 10px;
+  transition: 0.4s;
+}
+
+.main .social ul li a i:hover{
+  color: var(--primary-color-soft);
+  border: 1px solid var(--primary-color-soft);
+}
+
+
+.main .social ul li a .fa-facebook-f{
+  padding: 10px 13px;
+}
+
+footer .attribution { 
+  font-size: 11px; 
+  text-align: center; 
+  transition: 0.4s;
+}
+
+.attribution a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+
+@media (max-width:1242px) {
+  /* body {
+    border: 5px solid black;
+    display: block;
+    width: 100vw;
+  } */
+  .main {
+    background: url('../images/bg-mobile.svg') center center no-repeat;
+    background-size: contain;
+    border: 3px solid coral;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main .logo img {
+    margin: 30px 0px 90px 20px;
+    max-width: 200px;
+  }
+
+  .main .container-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 20px;
+    border: 1px solid yellow;
+  }
+
+  .main .container-principal img {
+    width: 100%;
+    max-width: 604px;
+    margin: 0 auto;
+  }
+
+  .main .container-principal .container-text {
+    width: 100%;
+    border: 1px solid red;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .main .social ul {
+    display: flex;
+    justify-content: center;
+    margin: 70px 0 20px 0;
+    
+  }
+}
+
