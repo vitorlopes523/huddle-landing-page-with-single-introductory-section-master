@@ -95,15 +95,9 @@ footer .attribution {
 
 
 @media (max-width:1242px) {
-  /* body {
-    border: 5px solid black;
-    display: block;
-    width: 100vw;
-  } */
   .main {
     background: url('../images/bg-mobile.svg') center center no-repeat;
     background-size: contain;
-    border: 3px solid coral;
     display: flex;
     flex-direction: column;
   }
@@ -118,7 +112,6 @@ footer .attribution {
     flex-direction: column;
     justify-content: center;
     margin: 0 20px;
-    border: 1px solid yellow;
   }
 
   .main .container-principal img {
@@ -129,7 +122,6 @@ footer .attribution {
 
   .main .container-principal .container-text {
     width: 100%;
-    border: 1px solid red;
     text-align: center;
     margin: 0 auto;
   }
