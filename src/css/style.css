@@ -49,6 +49,8 @@ body {
   transition: 0.4s;
 }
 
+
+
 .main .container-principal .container-content .btn:hover {
   background-color: var(--primary-color-soft);
   color: #fff;
