@@ -42,7 +42,7 @@ Os usuários devem ser capazes de:
 
 - Posicionar de maneira igual a do estilo a imagem de fundo.
 - Pequenas configurações de posicionamento e tamanho de elementos.
-- Deixa a imagem de ilustração responsiva.
+- Deixar a imagem de ilustração responsiva.
 - Detalhes de configuração css pela ausência do figma. 
 
 ### Desenvolvimento contínuo
